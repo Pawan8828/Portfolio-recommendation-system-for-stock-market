@@ -1,18 +1,7 @@
 # Portfolio-recommendation-system-for-stock-market
-Python |Pandas| NumPy |Seaborn| Streamlets | YFinance | K-Means | cvxpy | Data Visualization
+Develop a portfolio recommendation system that provides personalized investment suggestions based on user preferences, financial goals, and risk tolerance.
+In an increasingly complex financial landscape, selecting an optimal investment portfolio tailored to an individual’s unique preferences, financial goals, and risk tolerance can be challenging. A portfolio recommendation system offers a solution by combining financial expertise with advanced computational techniques to assist users in making informed investment decisions.
+A stock portfolio is a collection of stocks. The advantage of a portfolio is its return is the weighted return of its constituent stocks. The portfolio’s risk will be less than the risks of its constituent stocks.
+#RESULT
 
-Designed and deployed an intelligent system to help investors build optimized stock portfolios based on risk-return analysis and fundamental metrics.
 
-• Fetched and analyzed historical stock data (prices, returns, PE ratio, EPS) using the yFinance API for informed decision-making.
-
-• Clustered stocks with similar performance characteristics using K-Means clustering after preprocessing with StandardScaler.
-
-• Formulated a quadratic programming model using cvxpy to optimize stock allocations under investment constraints (e.g., min 5%, max 40% per stock).
-
-• Incorporated fundamental analysis by integrating valuation metrics like PE ratio and EPS into the stock selection logic.
-
-• Developed an interactive Streamlit web app that allows users to: * Input custom stock tickers. * View optimized allocations and performance metrics. * Visualize results via charts and plots.
-
-• Enforced dynamic allocation constraints to ensure realistic, diversified, and balanced portfolios aligned with investor preferences.
-
-Outcome: Enabled users to simulate, evaluate, and personalize stock portfolios using a data-driven approach—combining historical trends, machine learning, and optimization techniques for smarter investing.
